@@ -55,7 +55,7 @@ Add this PATH setting to your shell startup file for persistence. npm and script
 The following command will work only after the maintainer uploads all three artifacts for `v0.1.0` to [GitHub Releases](https://github.com/pingpongx-labs/pingpong-cli/releases). It is not an available download yet:
 
 ```sh
-curl -fsSL https://github.com/pingpongx-labs/pingpong-cli/releases/download/v0.1.0/install.sh \
+curl -fsSL https://raw.githubusercontent.com/pingpongx-labs/pingpong-cli/main/install.sh \
   | PINGPONG_REPO=pingpongx-labs/pingpong-cli sh
 ```
 
