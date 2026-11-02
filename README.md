@@ -1,5 +1,8 @@
 # PingPong CLI
 
+![Version](https://img.shields.io/badge/version-0.1.0-orange)
+
+
 Access your PingPong account data from the command line. The CLI provides balance, balance movement, and transaction history queries through a remote MCP server, supporting interactive exploration, scripts, and AI agents that can execute terminal commands without writing an HTTP client.
 
 The default environment is **demo (sandbox)**. Select production with `--env production`. Current operations are read-only; available tools and permissions depend on the connected server.
